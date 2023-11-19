@@ -1,8 +1,8 @@
 <h1>iris</h1>
 This repository runs a containerized jupyter notebook that achieves 100%
-classification accuracy on the [iris dataset]
-(https://archive.ics.uci.edu/dataset/53/iris) using XGBoost.  The steps to
-download the Docker container and run the notebook are below:
+classification accuracy on the
+[iris dataset](https://archive.ics.uci.edu/dataset/53/iris) using XGBoost.  The
+ steps to download the Docker container and run the notebook are below:
 
 1. Pull the container image and run the container
 ```bash
