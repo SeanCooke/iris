@@ -1,4 +1,5 @@
 <h1>iris</h1>
+
 This repository runs a containerized jupyter notebook that achieves 100%
 classification accuracy on the
 [iris dataset](https://archive.ics.uci.edu/dataset/53/iris) using XGBoost.  The
@@ -10,13 +11,13 @@ docker pull seancooke/iris:latest
 docker run -p 8888:8888 -d seancooke/iris:latest
 ```
 
-3. Get the CONTAINER ID of the container with `IMAGE=seancooke/iris:latest``
+3. Get the CONTAINER ID of the container with `IMAGE=seancooke/iris:latest`
 ```bash
 docker ps
 docker exec -it <CONTAINER_ID>  /bin/bash
 ```
 
-3. Copy the hash between `?token=`` and the next whitespace 
+3. Copy the hash between `?token=` and the next whitespace 
 ```bash
 jupyter server list
 ```
