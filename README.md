@@ -23,6 +23,7 @@ jupyter server list
 
 4. Open port 8888 on your local machine, paste the hash into the 'Password or 
 token:' field on the notebook server, and click 'Log in'
+
 ![Jupyter Token](images/jupyter-token.png)
 
 5. Once inside the jupyter notebook container, open `work/classification.ipynb`
